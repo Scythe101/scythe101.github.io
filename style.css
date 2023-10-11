@@ -1,6 +1,7 @@
 @font-face {
   font-family: Proza;
-  src: url(ProzaLibre-Regular.ttf);
+  src: url(https://github.com/Scythe101/scythe101.github.io/raw/main/ProzaLibre-Regular.ttf);
+  font-weight: normal;
 }
 
 #a{
