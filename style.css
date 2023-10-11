@@ -1,4 +1,10 @@
+@font-face {
+  font-family: Proza;
+  src: url(ProzaLibre-Regular.ttf);
+}
+
 #a{
+  font-family: Proza;
   text-align: left;
   font-size: 30px;
 }
