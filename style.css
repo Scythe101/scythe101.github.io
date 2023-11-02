@@ -1,17 +1,59 @@
-@font-face {
-  font-family: "Proza";
-  src: url(https://github.com/Scythe101/scythe101.github.io/raw/main/ProzaLibre-Regular.ttf);
-  font-weight: normal;
-}
-
 #a{
-  font-family: "Proza";
-  text-align: left;
+  font-family: Verdana, sans-serif;
+  text-align: center;
   font-size: 30px;
 }
 
 #b{
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', sans-serif;
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
+  padding-left: 4%;
+
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #dedede;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span{
+  padding-left: 12px;
 }
