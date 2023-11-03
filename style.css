@@ -3,6 +3,10 @@ body{
   flex-wrap: wrap;
 }
 
+#project{
+  text-align: center;
+}
+
 #image{
   width:10%;
   float: center;
@@ -19,7 +23,7 @@ body{
   
 }
 
-#announcements{
+.basicText{
   font-family: 'Trebuchet MS', sans-serif;
   text-align: left;
   font-size: 20px;
@@ -27,8 +31,7 @@ body{
   width: 100%;
 }
 
-#announcements h1{
-  text-align: center;
+.basicText h1{
   font-size: 25px;
 }
 
@@ -60,7 +63,7 @@ a:visited{
   color: #2990da;
 }
 
-#projects{
+.projects{
   font-family: 'Trebuchet MS', sans-serif;
   text-align: center;
   font-size: 20px;
@@ -79,7 +82,7 @@ a:visited{
   width: 1%;
 }
 
-#leftText{
+.leftText{
   text-align: left;
   font-size: 16px;
   padding: 3px;
