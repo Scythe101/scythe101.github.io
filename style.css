@@ -3,11 +3,34 @@ body{
   flex-wrap: wrap;
 }
 
-#a{
-  font-family: Verdana, sans-serif;
+#image{
+  width:10%;
+  float: center;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+#title{
+
   text-align: center;
+  font-family: Verdana, sans-serif;
   font-size: 30px;
-  width: 100%;
+  width:100%;
+  
+}
+
+#a{
+  
+}
+
+#blacklink:visited{
+  color: black;
+  text-decoration: none;
+}
+
+#blacklink:link{
+  color: black;
+  text-decoration: none;
 }
 
 #b{
@@ -20,7 +43,8 @@ body{
 
 
 a:link{
-  color: rgb(99, 120, 240);
+  color: rgb(89, 109, 219);
+  text-decoration: none;
 }
 
 a:visited{
@@ -34,14 +58,22 @@ a:visited{
   padding: 1px;
   border: 2px solid black;
   border-radius: 6px;
-  width: 33%;
+  width: 31.5%;
   
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+
+#space{
+  width: 1%;
 }
 
 #leftText{
   text-align: left;
   font-size: 16px;
-  padding-left: 3px;
+  padding: 3px;
 }
 
 .sidenav {
