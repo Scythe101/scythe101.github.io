@@ -65,6 +65,27 @@ a:visited{
   justify-content: center;
 }
   
+#c{
+  width: 100%;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 4%;
+}
+
+#c h1{
+  font-size: 30px;
+}
+
+#d{
+  width: 100%;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 4%;
+}
+
+
 
 #space{
   width: 1%;
