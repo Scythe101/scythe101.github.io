@@ -10,7 +10,7 @@ body{
 }
 
 #image{
-  width:10%;
+  width:110px;
   float: center;
   padding-right: 20px;
   vertical-align: middle;
@@ -21,10 +21,10 @@ a{
 }
 
 a:visited{
-  color: #81A1C1;
+  color: #7394b5;
 }
 a:link{
-  color: #5E81AC;
+  color: #5275a0;
   
 }
 
@@ -97,7 +97,36 @@ a:link{
   padding-left: 4%;
 }
 
+#contact{
+  border-width: 2px;
+  border-color: black;
+  border-radius: 18px;
+  padding:8px;
+  width:fit-content;
+  
+  background-color: rgb(173, 186, 205);
+}
 
+#contact img{
+  width:30px;
+  float: center;
+  padding-right: 4px;
+  vertical-align: middle;
+  
+}
+
+#contact svg{
+  width:30px;
+  float: center;
+  vertical-align: middle;
+  
+}
+
+
+#heightspace{
+  width: 100%;
+  height:8px;
+}
 
 #space{
   width: 4px;
@@ -105,9 +134,11 @@ a:link{
 }
 
 .leftText{
+  width: 100%;
+  font-family: 'Trebuchet MS', sans-serif;
   text-align: left;
-  font-size: 16px;
-  padding: 3px;
+  font-size: 17px;
+  padding-left: 4%;
 }
 
 .sidenav {
@@ -161,68 +192,41 @@ span{
   }
 }
 
-@media (prefers-color-scheme: dark){
-  body{
-    background-color: #23283d;
-    color: #dbdee1;
-  }
-  
-  .sidenav{
-    background-color: #3B4252;
-    color: #ced4de;
-  }
-  .sidenav a{
-    color: #ced4de;
-  }
-  .sidenav a:hover{
-    color: white;
-  }
-  
-  #blacklink:visited{
-    color: #E5E9F0;
-    
-  }
-  
-  #blacklink:link{
-    color: #E5E9F0;
-    
-  }
 
-  .projects{
-    background: rgb(37, 43, 67);
-    border: 2px solid rgb(229, 234, 245);
-  }
+body{
+  
+  color: rgb(75 85 105);
+  
 }
 
-@media (prefers-color-scheme: light){
-  body{
-    background-color: #ECEFF4;
-    color: rgb(75 85 105);
-  }
-  
-  .sidenav{
-    background-color: #3B4252;
-    color: #ced4de;
-  }
-  .sidenav a{
-    color: #ced4de;
-  }
-  .sidenav a:hover{
-    color: white;
-  }
-  
-  #blacklink:visited{
-    color: rgb(75 85 105);
-    
-  }
-  
-  #blacklink:link{
-    color: rgb(75 85 105);
-    
-  }
+body{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right bottom,#ECEFF4,rgb(161, 176, 199));
+}
 
-  .projects{
-    background: rgb(229, 234, 245);
-    border: 2px solid #4C566A;
-  }
+.sidenav{
+  background-color: #3B4252;
+  color: #ced4de;
+}
+.sidenav a{
+  color: #ced4de;
+}
+.sidenav a:hover{
+  color: white;
+}
+
+#blacklink:visited{
+  color: rgb(75 85 105);
+  
+}
+
+#blacklink:link{
+  color: rgb(75 85 105);
+  
+}
+
+.projects{
+  background: rgb(229, 234, 245);
+  border: 2px solid #4C566A;
 }
