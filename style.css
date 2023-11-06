@@ -168,7 +168,7 @@ span{
   }
   
   .sidenav{
-    background-color: #1e2233;
+    background-color: #3B4252;
     color: #ced4de;
   }
   .sidenav a{
@@ -189,7 +189,7 @@ span{
   }
 
   .projects{
-    background: rgb(37, 43, 67);
+    background: rgb(44, 50, 78);
     border: 2px solid rgb(229, 234, 245);
   }
 }
