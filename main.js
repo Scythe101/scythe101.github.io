@@ -1,5 +1,5 @@
 var isOpen=false;
-
+var isOver=false;
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   isOpen=true;
