@@ -3,11 +3,16 @@ var isOver=false;
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   isOpen=true;
+  document.getElementById("mainContainer").style.opacity = "0.4";
+  document.getElementById("mainContainer").style.filter= "blur(2px)";
 }
   
 function closeNav() {
+  document.getElementById("mainContainer").style.opacity = "1";
+  document.getElementById("mainContainer").style.filter= "blur(0)";
   document.getElementById("mySidenav").style.width = "0";
   isOpen=false;
+  
 }
 
 function teaseNav(){
