@@ -3,6 +3,7 @@ body{
   flex-wrap: wrap;
   overflow-wrap: break-word;
   max-width: 100%;
+  width:95%;
   background: linear-gradient(to right bottom,#ECEFF4,rgb(161, 176, 199));
 }
 
@@ -75,6 +76,7 @@ a:link{
   font-size:30px;
   cursor:pointer;
   position: fixed;
+  font-size: 30px;
 }
 
 #b{
@@ -169,7 +171,7 @@ a:link{
 .sidenav {
   height: 100%;
   width: 0;
-  position: fixed;
+  position:fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -208,15 +210,7 @@ span{
   padding-left: 12px;
 }
 
-@media screen and (max-width:680px){
-  .projects{
-    width: 100%;
-  }
-  #space{
-    width: 0%;
-    height:4px;
-  }
-}
+
 
 
 body{
@@ -248,4 +242,25 @@ body{
 #blacklink:link{
   color: rgb(75 85 105);
   
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+span{
+  padding-left: 12px;
+}
+@media screen and (max-width:680px){
+  .projects{
+    width: 100%;
+  }
+  #space{
+    width: 0%;
+    height:4px;
+  }
+  #projectContainer{
+    display: block;
+  }
 }

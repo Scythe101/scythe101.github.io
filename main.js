@@ -11,6 +11,7 @@ function closeNav() {
   document.getElementById("mainContainer").style.opacity = "1";
   document.getElementById("mainContainer").style.filter= "blur(0)";
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("menuButton").style.position = "fixed";
   isOpen=false;
   
 }
