@@ -12,10 +12,12 @@ function openNav() {
   
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("mySidenav").style.overflow = "auto";
+  // document.getElementById("mySidenav").style.whiteSpace = "normal";
   isOpen=true;
   document.getElementById("mainContainer").style.opacity = "0.4";
   document.getElementById("mainContainer").style.filter= "blur(2px)";
   document.getElementById("mainContainer").style.pointerEvents= "none";
+  document.getElementById("mainContainer").style.userSelect= "none";
   document.getElementById("menuButton").style.color= "#ced4de";
   
 }
@@ -29,6 +31,8 @@ function closeNav() {
   document.getElementById("mainContainer").style.pointerEvents= "auto";
   isOpen=false;
   document.getElementById("mySidenav").style.overflow = "hidden";
+  document.getElementById("mySidenav").style.whiteSpace = "nowrap";
+  document.getElementById("mainContainer").style.overflow= "hidden";
 }
 
 function teaseNav(){
@@ -44,6 +48,15 @@ function closeTeasedNav(){
   }
 }
 
+function enhanceSideNav(){
+  if (document.getElementById("mySidenav").style.width === "250px"){
+    document.getElementById("mySidenav").style.overflow = "normal";
+  }
+  else{
+    document.getElementById("mySidenav").style.overflow = "nowrap";
+  }
+}
+
 document.addEventListener("click", function(e){
   x=e.clientX;
   y=e.clientY;
@@ -52,3 +65,5 @@ document.addEventListener("click", function(e){
     closeNav();
   }
 });
+
+setInterval(enhanceSideNav(), 5);
