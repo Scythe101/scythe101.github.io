@@ -11,12 +11,12 @@ function controlNav(){
 function openNav() {
   
   document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.overflow = "auto";
   isOpen=true;
   document.getElementById("mainContainer").style.opacity = "0.4";
   document.getElementById("mainContainer").style.filter= "blur(2px)";
   document.getElementById("mainContainer").style.pointerEvents= "none";
   document.getElementById("menuButton").style.color= "#ced4de";
-
   
 }
   
@@ -28,7 +28,7 @@ function closeNav() {
   document.getElementById("menuButton").style.color = "#3B4252";
   document.getElementById("mainContainer").style.pointerEvents= "auto";
   isOpen=false;
-  
+  document.getElementById("mySidenav").style.overflow = "hidden";
 }
 
 function teaseNav(){

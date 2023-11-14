@@ -177,8 +177,7 @@ a:link{
   z-index: 1;
   top: 0;
   left: 0;
-  
-  overflow-x: hidden;
+  overflow: hidden;
   transition: 0.4s;
   padding-top: 60px;
   transition-timing-function: ease;
