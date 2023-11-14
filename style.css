@@ -3,7 +3,7 @@ body{
   flex-wrap: wrap;
   overflow-wrap: break-word;
   max-width: 100%;
-  width:95%;
+  padding-right:4%;
   background: linear-gradient(to right bottom,#ECEFF4,rgb(161, 176, 199));
 }
 
